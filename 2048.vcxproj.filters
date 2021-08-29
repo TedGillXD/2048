@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{3410f4a4-f3af-4163-a2ea-74144fa894c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{42d4d3a6-f6a2-4550-8857-351f1dc3ccd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{2ae17301-79f8-4446-8efe-a9730334e169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{a37a6d90-d70f-4355-82ad-36a89ae0fe7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\numbers">
+      <UniqueIdentifier>{21af9ebe-25a9-4835-942a-53109b499ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{7b000bcb-40b8-43a4-95c9-0cc84dfce8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Data">
+      <UniqueIdentifier>{0a274c2f-b4bd-49f8-a328-a7bb85ec9d6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\vertex.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\fragment.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\number_vertex.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\number_fragment.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\text_fragment.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Shaders\text_vertex.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Data\best_score.dat">
+      <Filter>Resource Files\Data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Log.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Log.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ResourcesManager.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\stb_image.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\background.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Images\numbers\2.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\4.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\8.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\16.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\32.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\64.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\128.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\256.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\512.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\1024.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+    <Image Include="Images\numbers\2048.png">
+      <Filter>Resource Files\Images\numbers</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\ARLRDBD.TTF">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\arial.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\2048.log">
+      <Filter>Resource Files\Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
